@@ -1,7 +1,7 @@
 openshift-mongo-java-spatial
 =============================
 
-This is the code to go along with the [OpenShift blog piece](???????) on how to use Flask (python) with MongoDB to create a REST like web service with spatial data
+This is the code to go along with the [OpenShift blog piece](https://openshift.redhat.com/community/blogs/spatial-jee6-jax-rs-cdi-mongodb-on-paas) on how to use Flask (python) with MongoDB to create a REST like web service with spatial data
 
 Running on OpenShift
 ----------------------------
@@ -17,7 +17,7 @@ Add this upstream flask repo
 
 
     cd javaws
-    git remote add upstream -m master ??????????
+    git remote add upstream -m master https://github.com/openshift-quickstart/openshift-mongo-spatial-jee6.git
     git pull -s recursive -X theirs upstream master
     
 Then push the repo upstream
