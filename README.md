@@ -8,10 +8,9 @@ Running on OpenShift
 
 Create an account at http://openshift.redhat.com/
 
-Create a python-2.6 application and add a MongoDB cartridge to the app
+Create a JBossEAP application with MongoDB
 
-    rhc app create javaws jbosseap-6
-    rhc cartridge mongodb-2.2 --app javaws
+    rhc app create javaws jbosseap-6 mongodb-2
 
 Add this upstream flask repo
 
