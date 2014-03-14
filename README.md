@@ -1,12 +1,12 @@
 openshift-mongo-java-spatial
 =============================
 
-This is the code to go along with the [OpenShift blog piece](https://openshift.redhat.com/community/blogs/spatial-jee6-jax-rs-cdi-mongodb-on-paas) on how to use Flask (python) with MongoDB to create a REST like web service with spatial data
+This is the code to go along with the [OpenShift blog piece](https://www.openshift.com/blogs/spatial-jee6-jax-rs-cdi-mongodb-on-paas) on how to use Flask (python) with MongoDB to create a REST like web service with spatial data
 
 Running on OpenShift
 ----------------------------
 
-Create an account at http://openshift.redhat.com/
+Create an account at https://www.openshift.com
 
 Create a JBossEAP application with MongoDB
 
@@ -24,7 +24,7 @@ Then push the repo upstream
     git push
     
 To add the data to the MongoDB instance please follow the instructions on this blog:
-[Mongo Spatial on OpenShift](https://openshift.redhat.com/community/blogs/spatial-mongodb-in-openshift-be-the-next-foursquare-part-1)
+[Mongo Spatial on OpenShift](https://www.openshift.com/blogs/spatial-mongodb-in-openshift-be-the-next-foursquare-part-1)
 
 Now, ssh into the application.
 
