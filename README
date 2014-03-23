@@ -9,10 +9,10 @@ pom.xml - Maven build file
 .openshift/action_hooks/build - Script that gets run every git push as part of the build process (on the CI system if available)
 .openshift/action_hooks/deploy - Script that gets run every git push after build but before the app is restarted
 .openshift/action_hooks/post_deploy - Script that gets run every git push after the app is restarted
-.openshift/action_hooks/pre_start_jbosseap-6.0 - Script that gets run prior to starting EAP6.0
-.openshift/action_hooks/post_start_jbosseap-6.0 - Script that gets run after EAP6.0 is started
-.openshift/action_hooks/pre_stop_jbosseap-6.0 - Script that gets run prior to stopping EAP6.0
-.openshift/action_hooks/post_stop_jbosseap-6.0 - Script that gets run after EAP6.0 is stopped
+.openshift/action_hooks/pre_start_jbosseap - Script that gets run prior to starting EAP6
+.openshift/action_hooks/post_start_jbosseap - Script that gets run after EAP6 is started
+.openshift/action_hooks/pre_stop_jbosseap - Script that gets run prior to stopping EAP6
+.openshift/action_hooks/post_stop_jbosseap - Script that gets run after EAP6 is stopped
 .openshift/markers - directory for files used to control application behavior. See README in markers directory
 
 
