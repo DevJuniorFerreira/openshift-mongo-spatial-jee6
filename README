@@ -3,7 +3,7 @@ Repo layout
 deployments/ - location for built wars (Details below)
 src/ - Maven src structure
 pom.xml - Maven build file  
-.openshift/ - location for openshift specific files
+.openshift/ - location for OpenShift specific files
 .openshift/config/ - location for configuration files such as standalone.xml (used to modify jboss config such as datasources) 
 .openshift/action_hooks/pre_build - Script that gets run every git push before the build (on the CI system if available)
 .openshift/action_hooks/build - Script that gets run every git push as part of the build process (on the CI system if available)
